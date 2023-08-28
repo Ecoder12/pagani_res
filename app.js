@@ -78,6 +78,11 @@ Claim Number : ${content['your-claim-number']}
 Terms & Conditions Agreement 
 
 - REPAIR AUTHORIZATION:
+
+      I authorize Pagani's, henceforth referred to as “Pagani's” and its 
+employees to repair the vehicle including the purchase and installation of all necessary
+parts, materials, labor, and subcontract services.
+
       I understand that an express mechanic's lien is hereby acknowledged to secure payment. 
 Should legal action be necessary to enforce collection, I will be responsible for all legal 
 expenses.
@@ -94,7 +99,7 @@ all repairs, paint and workmanship on sheet metal, frame, unitized chassis compo
 items, but specifically excludes electric systems. This limited warranty is subject to any manufacturer’s 
 warranty covering parts and materials. This limited warranty is non-transferable and valid for as long 
 as I own the vehicle. During the limited warranty period, Pagani's will repair or replace any defects 
-caused by Pagani's or its agents. All warranty repairs must be performed at one of Pagani's Downtown Car Care’s 
+caused by Pagani's or its agents. All warranty repairs must be performed at one of Pagani's 
 facilities; any repairs or alterations to the vehicle performed non-Pagani's facility in any manner 
 whatsoever shall automatically void this limited warranty. This limited warranty shall not apply to 
 repairs necessitated by any cause beyond the reasonable control of Pagani's, including any defects, 
@@ -106,7 +111,7 @@ IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OF MERCHANTABILITY 
 PARTICULAR PURPOSE.
 
       LIMITATION OF LIABILITY. In no event shall Pagani's be liable for consequential, special, or 
-indirect damages of any nature, and Pagani's Downtown Car Care’s maximum liability shall be no greater than the amount 
+indirect damages of any nature, and Pagani's maximum liability shall be no greater than the amount 
 actually paid to, and received by, Pagani's for the services performed on the vehicle.
 
       MANDATORY ARBITRATION. I agree that all claims and disputes relating to this Repair Authorization 
@@ -200,6 +205,8 @@ doc.moveDown();
   doc.text(`- REPAIR AUTHORIZATION`);
   doc.moveDown();
 
+  doc.text(`I authorize Pagani's, henceforth referred to as “Pagani's” and its employees to repair the vehicle including the purchase and installation of all necessary parts, materials, labor, and subcontract services.`)
+  doc.moveDown();
   
   doc.text(`I understand that an express mechanic's lien is hereby acknowledged to secure payment. Should legal action be necessary to enforce collection, I will be responsible for all legal expenses.`);
   doc.moveDown();
@@ -210,10 +217,10 @@ doc.moveDown();
   doc.text(`I understand and agree that Pagani's may provide my contact information to a third-partyorganization that may contact me for the sole purpose of conducting a customer satisfaction survey.`);
   doc.moveDown();
 
-  doc.text(`LIMITED WARRANTY. Subject to the specified exclusions and exceptions, Pagani's provides a limited warranty for the work performed under this Repair Authorization.  This limited warranty includes all repairs, paint and workmanship on sheet metal, frame, unitized chassis components, and mechanical items, but specifically excludes electric systems. This limited warranty is subject to any manufacturer’s warranty covering parts and materials. This limited warranty is non-transferable and valid for as long as I own the vehicle. During the limited warranty period, Pagani's will repair or replace any defects caused by Pagani's or its agents. All warranty repairs must be performed at one of Pagani's Downtown Car Care’s facilities; any repairs or alterations to the vehicle performed non-Pagani's facility in any manner whatsoever shall automatically void this limited warranty.  This limited warranty shall not apply to repairs necessitated by any cause beyond the reasonable control of Pagani's, including any defects, damage, or malfunctions caused by or resulting from unauthorized service or parts, improper or inadequate vehicle maintenance, alterations, accidents, modification or repairs, subsequent repairs performed by a party other than Pagani's, abuse, misuse, neglect, acts of God, or environmental damage. THE WARRANTIES AS SET FORTH IN THIS SERVICE CONTRACT ARE IN LIEU OF ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.`);
+  doc.text(`LIMITED WARRANTY. Subject to the specified exclusions and exceptions, Pagani's provides a limited warranty for the work performed under this Repair Authorization.  This limited warranty includes all repairs, paint and workmanship on sheet metal, frame, unitized chassis components, and mechanical items, but specifically excludes electric systems. This limited warranty is subject to any manufacturer’s warranty covering parts and materials. This limited warranty is non-transferable and valid for as long as I own the vehicle. During the limited warranty period, Pagani's will repair or replace any defects caused by Pagani's or its agents. All warranty repairs must be performed at one of Pagani's  facilities; any repairs or alterations to the vehicle performed non-Pagani's facility in any manner whatsoever shall automatically void this limited warranty.  This limited warranty shall not apply to repairs necessitated by any cause beyond the reasonable control of Pagani's, including any defects, damage, or malfunctions caused by or resulting from unauthorized service or parts, improper or inadequate vehicle maintenance, alterations, accidents, modification or repairs, subsequent repairs performed by a party other than Pagani's, abuse, misuse, neglect, acts of God, or environmental damage. THE WARRANTIES AS SET FORTH IN THIS SERVICE CONTRACT ARE IN LIEU OF ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.`);
   doc.moveDown();
 
-  doc.text(`LIMITATION OF LIABILITY. In no event shall Pagani's be liable for consequential, special, or indirect damages of any nature, and Pagani's Downtown Car Care’s maximum liability shall be no greater than the amount actually paid to, and received by, Pagani's for the services performed on the vehicle.`);
+  doc.text(`LIMITATION OF LIABILITY. In no event shall Pagani's be liable for consequential, special, or indirect damages of any nature, and Pagani's  maximum liability shall be no greater than the amount actually paid to, and received by, Pagani's for the services performed on the vehicle.`);
   doc.moveDown();
 
   doc.text(`MANDATORY ARBITRATION. I agree that all claims and disputes relating to this Repair Authorization (including the arbitrability of any issue), shall be exclusively, solely, and finally settled by confidential arbitration in the state in which the repair was performed, in accordance with the Federal Arbitration Act(9 U.S.C. § 1 et. seq.), and the then-existing rules of the American Arbitration Association (“AAA”). There shall be a single arbitrator. The filing costs shall be the sole responsibility of the party filing arbitration. If the parties cannot agree on a single arbitrator, then each party shall select one individual to choose an arbitrator and those individuals shall agree on the arbitrator within 10 days. The arbitrator shall have the right to award or include in any award the specific performance of these terms and/or costs and expenses of the arbitration (including reasonable attorneys’fees) in accordance with what he or she deems just and equitable under the circumstances. The arbitrator’s decision may be reduced to a judgment in any competent jurisdiction.`);
