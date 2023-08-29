@@ -79,10 +79,6 @@ Terms & Conditions Agreement
 
 - REPAIR AUTHORIZATION:
 
-      I authorize Pagani's, henceforth referred to as “Pagani's” and its 
-employees to repair the vehicle including the purchase and installation of all necessary
-parts, materials, labor, and subcontract services.
-
       I understand that an express mechanic's lien is hereby acknowledged to secure payment. 
 Should legal action be necessary to enforce collection, I will be responsible for all legal 
 expenses.
@@ -205,9 +201,6 @@ doc.moveDown();
   doc.text(`- REPAIR AUTHORIZATION`);
   doc.moveDown();
 
-  doc.text(`I authorize Pagani's, henceforth referred to as “Pagani's” and its employees to repair the vehicle including the purchase and installation of all necessary parts, materials, labor, and subcontract services.`)
-  doc.moveDown();
-  
   doc.text(`I understand that an express mechanic's lien is hereby acknowledged to secure payment. Should legal action be necessary to enforce collection, I will be responsible for all legal expenses.`);
   doc.moveDown();
 
